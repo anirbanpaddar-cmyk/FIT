@@ -57,7 +57,7 @@ export const CLASS_CATEGORIES: ClassCategory[] = [
     duration: '৬০ মিনিট',
     intensity: 'High',
     calories: '৫০০-৭০০ ক্যালরি',
-    image: '/src/assets/images/hero_bengali_zumba_studio_1790949408999.jpg',
+    image: '/images/hero.jpg',
     description: 'লাতিন ও আন্তর্জাতিক রিদমে ভরপুর ফুল-বডি কার্ডিও ওয়ার্কআউট। ক্যালরি বার্ন করার সবচেয়ে মজাদার উপায়।'
   },
   {
@@ -68,7 +68,7 @@ export const CLASS_CATEGORIES: ClassCategory[] = [
     duration: '৪৫ মিনিট',
     intensity: 'All Levels',
     calories: '৩৫০-৪৫০ ক্যালরি',
-    image: '/src/assets/images/about_zumba_group_energy_1790949424704.jpg',
+    image: '/images/zumba-01.jpg',
     description: 'কোনো ডান্স ব্যাকগ্রাউন্ড নেই? কোনো চিন্তা নেই! সহজ স্টেপ এবং ধীরগতির নির্দেশনায় প্রথম দিন থেকেই আত্মবিশ্বাসী হয়ে উঠুন।'
   },
   {
@@ -79,7 +79,7 @@ export const CLASS_CATEGORIES: ClassCategory[] = [
     duration: '৫০ মিনিট',
     intensity: 'Medium',
     calories: '৪০০-৬০০ ক্যালরি',
-    image: '/src/assets/images/class_dance_fitness_1790949545069.jpg',
+    image: '/images/class-01.jpg',
     description: 'বলিউড, কন্টেম্পোরারি এবং ফাঙ্ক বিটের সাথে অ্যারোবিক ফিটনেস। শরীর টোন করুন হাসিমুখে।'
   },
   {
@@ -90,7 +90,7 @@ export const CLASS_CATEGORIES: ClassCategory[] = [
     duration: '৭৫ মিনিট',
     intensity: 'High',
     calories: '৬০০-৮০০ ক্যালরি',
-    image: '/src/assets/images/video_thumbnail_zumba_session_1790949441372.jpg',
+    image: '/images/video_thumbnail_zumba_session_1790949441372.jpg',
     description: 'সপ্তাহান্তের হাই-এনার্জি বুস্টার সেশন। সারা সপ্তাহের ক্লান্তি দূর করে শরীরকে নতুন শক্তিতে উজ্জীবিত করুন।'
   },
   {
@@ -101,7 +101,7 @@ export const CLASS_CATEGORIES: ClassCategory[] = [
     duration: '৫৫ মিনিট',
     intensity: 'All Levels',
     calories: '৪৫০-৬৫০ ক্যালরি',
-    image: '/src/assets/images/gallery_post_workout_glow_1790949471727.jpg',
+    image: '/images/gallery_post_workout_glow_1790949471727.jpg',
     description: 'একসাথে নাচার অনাবিল আনন্দ! গ্রুপ চ্যালেঞ্জ, টিম স্পিরিট এবং নতুন বন্ধু তৈরির অপূর্ব সুযোগ।'
   }
 ];
@@ -114,7 +114,7 @@ export const TRAINERS: Trainer[] = [
     specialization: 'Master Zumba Specialist & Cardio Lead',
     experience: '৭+ বছর অভিজ্ঞতা',
     bioBengali: 'অনন্যার উদ্যমী ব্যক্তিত্ব আর সহজ কোরিওগ্রাফি প্রতিটি ক্লাসকে উৎসবে পরিণত করে। শত শত নারীকে ফিটনেসের প্রতি আকৃষ্ট করেছেন।',
-    image: '/src/assets/images/trainer_ananya_portrait_1790949458330.jpg',
+    image: '/images/trainer-01.jpg',
     certifications: ['ZIN™ Certified', 'AFAA Aerobics Lead', 'First Aid Certified']
   },
   {
@@ -124,7 +124,7 @@ export const TRAINERS: Trainer[] = [
     specialization: 'Bolly-Zumba & Beginner Instructor',
     experience: '৫+ বছর অভিজ্ঞতা',
     bioBengali: 'নতুন যারা জু্ম্বা শুরু করছেন, তাদের জন্য প্রিয়া আদর্শ ট্রেনার। অত্যন্ত যত্ন সহকারে শরীরের মুভমেন্ট আর পোশ্চার শেখান।',
-    image: '/src/assets/images/trainer_priya_portrait_1790949510070.jpg',
+    image: '/images/trainer_priya_portrait_1790949510070.jpg',
     certifications: ['Zumba Pro Skills', 'Pilates Floor Lead', 'Kolkata Fitness Award']
   },
   {
@@ -134,7 +134,7 @@ export const TRAINERS: Trainer[] = [
     specialization: 'High-Energy Dance Conditioning & HIIT',
     experience: '৬+ বছর অভিজ্ঞতা',
     bioBengali: 'অ্যাথলেটিক পাওয়ার আর রিদমিক ডান্সের মেলবন্ধনে রোহিতের ক্লাস সবসময় হাউসফুল। হাই-ইনটেনসিটি বিটে ক্যালরি দ্রুত বার্ন হয়।',
-    image: '/src/assets/images/trainer_rohit_portrait_1790949527703.jpg',
+    image: '/images/trainer_rohit_portrait_1790949527703.jpg',
     certifications: ['ACE Fitness Coach', 'Zumba Toning Certified', 'HIIT Specialist']
   }
 ];
@@ -202,28 +202,28 @@ export const GALLERY_ITEMS = [
     id: 'gal-1',
     title: 'স্টুডিও এনার্জি',
     subtitle: 'রোদঝলমলে ডান্স ফ্লোরে রিদমিক মুভমেন্ট',
-    image: '/src/assets/images/hero_bengali_zumba_studio_1790949408999.jpg',
+    image: '/images/hero.jpg',
     span: 'col-span-12 md:col-span-7'
   },
   {
     id: 'gal-2',
     title: 'গ্রুপ টিমওয়ার্ক',
     subtitle: 'একসাথে স্টেপ মিলিয়ে নাচার প্রেরণা',
-    image: '/src/assets/images/about_zumba_group_energy_1790949424704.jpg',
+    image: '/images/zumba-01.jpg',
     span: 'col-span-12 md:col-span-5'
   },
   {
     id: 'gal-3',
     title: 'ক্লাস শেষের উজ্জ্বল হাসি',
     subtitle: 'ঘাম ঝরিয়ে অনাবিল পরিতৃপ্তি',
-    image: '/src/assets/images/gallery_post_workout_glow_1790949471727.jpg',
+    image: '/images/gallery_post_workout_glow_1790949471727.jpg',
     span: 'col-span-12 md:col-span-5'
   },
   {
     id: 'gal-4',
     title: 'লাইভ মাস্টারক্লাস',
     subtitle: 'আন্তর্জাতিক বিটের সাথে জুম্বা সেশন',
-    image: '/src/assets/images/video_thumbnail_zumba_session_1790949441372.jpg',
+    image: '/images/video_thumbnail_zumba_session_1790949441372.jpg',
     span: 'col-span-12 md:col-span-7'
   }
 ];

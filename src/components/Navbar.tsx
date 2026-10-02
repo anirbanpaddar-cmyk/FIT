@@ -37,7 +37,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
             className="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B35] rounded-xl"
           >
             <img
-              src="/src/assets/images/refimind_logo_badge_1790951748725.jpg"
+              src="/images/logo.png"
               alt="REFi MiND Logo"
               className="w-10 h-10 sm:w-11 sm:h-11 rounded-full object-cover border-2 border-[#B8FF00] shadow-[0_0_14px_rgba(184,255,0,0.4)] group-hover:scale-105 transition-transform"
             />

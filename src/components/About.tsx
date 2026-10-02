@@ -50,7 +50,7 @@ export const About: React.FC<AboutProps> = ({ onOpenBooking }) => {
           }`}>
             <div className="relative rounded-[28px] overflow-hidden border border-white/10 shadow-2xl bg-[#202020] group animate-float-slow">
               <img
-                src="/src/assets/images/about_zumba_group_energy_1790949424704.jpg"
+                src="/images/zumba-01.jpg"
                 alt="Bengali women laughing and exercising in Zumba group class"
                 className="w-full h-[380px] sm:h-[460px] object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                 referrerPolicy="no-referrer"

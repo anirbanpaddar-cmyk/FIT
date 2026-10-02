@@ -7,7 +7,7 @@ export const WhyJoinUs: React.FC = () => {
       {/* Darkened Cinematic Background Image with adult Bengali women doing Zumba subtly visible */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/class_dance_fitness_1790949545069.jpg"
+          src="/images/zumba-02.jpg"
           alt="Adult Bengali women doing Zumba workout in background"
           className="w-full h-full object-cover object-center filter brightness-[0.20] contrast-[1.1] saturate-[1.1]"
           referrerPolicy="no-referrer"

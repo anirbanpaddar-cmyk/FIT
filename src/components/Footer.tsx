@@ -14,7 +14,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking }) => {
           <div className="lg:col-span-5">
             <div className="flex items-center gap-3">
               <img
-                src="/src/assets/images/refimind_logo_badge_1790951748725.jpg"
+                src="/images/logo.png"
                 alt="REFi MiND Logo"
                 className="w-12 h-12 rounded-full object-cover border-2 border-[#B8FF00] shadow-[0_0_18px_rgba(184,255,0,0.5)]"
               />

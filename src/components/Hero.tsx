@@ -12,8 +12,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenVideo }) => {
       {/* Background Photography with Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_bengali_zumba_studio_1790949408999.jpg"
-          alt="Group of adult Bengali women doing energetic Zumba dance fitness in a modern studio"
+          src="/images/hero.jpg"
+          alt="Zumba"
           className="w-full h-full object-cover object-center filter brightness-[0.75] contrast-[1.05]"
           referrerPolicy="no-referrer"
         />

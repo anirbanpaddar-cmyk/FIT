@@ -49,17 +49,17 @@ export const FeaturedVideo: React.FC<FeaturedVideoProps> = ({ onOpenBooking }) =
   const cameraAngles = {
     1: {
       title: 'CAM 1: WIDE GROUP (সিনক্রোনাইজড স্টেপ-টাচ)',
-      image: '/src/assets/images/video_thumbnail_zumba_session_1790949441372.jpg',
+      image: '/images/video_thumbnail_zumba_session_1790949441372.jpg',
       tag: 'Wide Studio View'
     },
     2: {
       title: 'CAM 2: INSTRUCTOR LEAD (অনন্যা সেনগুপ্ত)',
-      image: '/src/assets/images/zumba_instructor_camera_angle_1790950324045.jpg',
+      image: '/images/zumba_instructor_camera_angle_1790950324045.jpg',
       tag: 'Instructor Mid-Shot'
     },
     3: {
       title: 'CAM 3: DANCE ENERGY (টিম কোরিওগ্রাফি)',
-      image: '/src/assets/images/hero_bengali_zumba_studio_1790949408999.jpg',
+      image: '/images/hero.jpg',
       tag: 'Group Dynamics'
     }
   };
@@ -607,7 +607,7 @@ export const FeaturedVideo: React.FC<FeaturedVideoProps> = ({ onOpenBooking }) =
               >
                 <div className="aspect-video w-full rounded-lg overflow-hidden mb-2 relative">
                   <img
-                    src="/src/assets/images/video_thumbnail_zumba_session_1790949441372.jpg"
+                    src="/images/video_thumbnail_zumba_session_1790949441372.jpg"
                     alt="Featured Session sl385W665eA"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                   />
@@ -633,7 +633,7 @@ export const FeaturedVideo: React.FC<FeaturedVideoProps> = ({ onOpenBooking }) =
               >
                 <div className="aspect-video w-full rounded-lg overflow-hidden mb-2">
                   <img
-                    src="/src/assets/images/zumba_instructor_camera_angle_1790950324045.jpg"
+                    src="/images/zumba_instructor_camera_angle_1790950324045.jpg"
                     alt="Session 2"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                   />
@@ -654,7 +654,7 @@ export const FeaturedVideo: React.FC<FeaturedVideoProps> = ({ onOpenBooking }) =
               >
                 <div className="aspect-video w-full rounded-lg overflow-hidden mb-2">
                   <img
-                    src="/src/assets/images/hero_bengali_zumba_studio_1790949408999.jpg"
+                    src="/images/hero.jpg"
                     alt="Session 3"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                   />
