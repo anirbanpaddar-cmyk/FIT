@@ -1,0 +1,6 @@
+{
+  "name": "নাচে ফিট — NACHE FIT Zumba & Dance Fitness",
+  "description": "নাচের তালে ফিটনেসের নতুন আনন্দ — Bengali Zumba & Dance Fitness Studio for women and beginner-friendly group workouts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
