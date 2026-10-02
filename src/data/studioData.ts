@@ -90,7 +90,7 @@ export const CLASS_CATEGORIES: ClassCategory[] = [
     duration: '৭৫ মিনিট',
     intensity: 'High',
     calories: '৬০০-৮০০ ক্যালরি',
-    image: '/images/video_thumbnail_zumba_session_1790949441372.jpg',
+    image: '/images/class-02.jpg',
     description: 'সপ্তাহান্তের হাই-এনার্জি বুস্টার সেশন। সারা সপ্তাহের ক্লান্তি দূর করে শরীরকে নতুন শক্তিতে উজ্জীবিত করুন।'
   },
   {
@@ -101,7 +101,7 @@ export const CLASS_CATEGORIES: ClassCategory[] = [
     duration: '৫৫ মিনিট',
     intensity: 'All Levels',
     calories: '৪৫০-৬৫০ ক্যালরি',
-    image: '/images/gallery_post_workout_glow_1790949471727.jpg',
+    image: '/images/gallery-01.jpg',
     description: 'একসাথে নাচার অনাবিল আনন্দ! গ্রুপ চ্যালেঞ্জ, টিম স্পিরিট এবং নতুন বন্ধু তৈরির অপূর্ব সুযোগ।'
   }
 ];
@@ -124,7 +124,7 @@ export const TRAINERS: Trainer[] = [
     specialization: 'Bolly-Zumba & Beginner Instructor',
     experience: '৫+ বছর অভিজ্ঞতা',
     bioBengali: 'নতুন যারা জু্ম্বা শুরু করছেন, তাদের জন্য প্রিয়া আদর্শ ট্রেনার। অত্যন্ত যত্ন সহকারে শরীরের মুভমেন্ট আর পোশ্চার শেখান।',
-    image: '/images/trainer_priya_portrait_1790949510070.jpg',
+    image: '/images/trainer-02.jpg',
     certifications: ['Zumba Pro Skills', 'Pilates Floor Lead', 'Kolkata Fitness Award']
   },
   {
@@ -134,7 +134,7 @@ export const TRAINERS: Trainer[] = [
     specialization: 'High-Energy Dance Conditioning & HIIT',
     experience: '৬+ বছর অভিজ্ঞতা',
     bioBengali: 'অ্যাথলেটিক পাওয়ার আর রিদমিক ডান্সের মেলবন্ধনে রোহিতের ক্লাস সবসময় হাউসফুল। হাই-ইনটেনসিটি বিটে ক্যালরি দ্রুত বার্ন হয়।',
-    image: '/images/trainer_rohit_portrait_1790949527703.jpg',
+    image: '/images/trainer-03.jpg',
     certifications: ['ACE Fitness Coach', 'Zumba Toning Certified', 'HIIT Specialist']
   }
 ];
@@ -216,14 +216,14 @@ export const GALLERY_ITEMS = [
     id: 'gal-3',
     title: 'ক্লাস শেষের উজ্জ্বল হাসি',
     subtitle: 'ঘাম ঝরিয়ে অনাবিল পরিতৃপ্তি',
-    image: '/images/gallery_post_workout_glow_1790949471727.jpg',
+    image: '/images/gallery-01.jpg',
     span: 'col-span-12 md:col-span-5'
   },
   {
     id: 'gal-4',
     title: 'লাইভ মাস্টারক্লাস',
     subtitle: 'আন্তর্জাতিক বিটের সাথে জুম্বা সেশন',
-    image: '/images/video_thumbnail_zumba_session_1790949441372.jpg',
+    image: '/images/video-01.jpg',
     span: 'col-span-12 md:col-span-7'
   }
 ];

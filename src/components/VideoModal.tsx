@@ -144,7 +144,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({ isOpen, onClose, onOpenB
             <>
               {/* Dynamic Action Snapshot */}
               <img
-                src="/images/video_thumbnail_zumba_session_1790949441372.jpg"
+                src="/images/video-01.jpg"
                 alt="Zumba synchronized movements"
                 className={`w-full h-full object-cover object-center filter ${
                   isPlaying ? 'brightness-[0.95]' : 'brightness-[0.6]'

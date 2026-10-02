@@ -49,12 +49,12 @@ export const FeaturedVideo: React.FC<FeaturedVideoProps> = ({ onOpenBooking }) =
   const cameraAngles = {
     1: {
       title: 'CAM 1: WIDE GROUP (সিনক্রোনাইজড স্টেপ-টাচ)',
-      image: '/images/video_thumbnail_zumba_session_1790949441372.jpg',
+      image: '/images/video-01.jpg',
       tag: 'Wide Studio View'
     },
     2: {
       title: 'CAM 2: INSTRUCTOR LEAD (অনন্যা সেনগুপ্ত)',
-      image: '/images/zumba_instructor_camera_angle_1790950324045.jpg',
+      image: '/images/video-02.jpg',
       tag: 'Instructor Mid-Shot'
     },
     3: {
@@ -607,7 +607,7 @@ export const FeaturedVideo: React.FC<FeaturedVideoProps> = ({ onOpenBooking }) =
               >
                 <div className="aspect-video w-full rounded-lg overflow-hidden mb-2 relative">
                   <img
-                    src="/images/video_thumbnail_zumba_session_1790949441372.jpg"
+                    src="/images/video-01.jpg"
                     alt="Featured Session sl385W665eA"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                   />
@@ -633,7 +633,7 @@ export const FeaturedVideo: React.FC<FeaturedVideoProps> = ({ onOpenBooking }) =
               >
                 <div className="aspect-video w-full rounded-lg overflow-hidden mb-2">
                   <img
-                    src="/images/zumba_instructor_camera_angle_1790950324045.jpg"
+                    src="/images/video-02.jpg"
                     alt="Session 2"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                   />
